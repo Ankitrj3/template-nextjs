@@ -5,7 +5,7 @@ type Props = {};
 
 export default function Footer({}: Props) {
   return (
-    <div className="w-full h-24 flex flex-col md:flex-row items-center justify-between gap-4">
+    <div className="w-full h-20 flex flex-col md:flex-row items-center justify-between gap-4">
       <ProjectLogo />
       <div className="flex flex-col items-center justify-center gap-2">
         <h3 className="text-lg md:text-2xl">AWS Amplify Gen 2</h3>

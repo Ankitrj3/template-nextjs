@@ -1,4 +1,4 @@
-import Footer from "@/Layout/Footer";
+import Footer from "@/app/Layout/Footer";
 import Image from "next/image";
 
 export default function Home() {

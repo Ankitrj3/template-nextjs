@@ -11,7 +11,12 @@ export default function ProjectLogo({ onlyProjectLogo }: Props) {
       {onlyProjectLogo ? null : (
         <>
           <Image src="/logo.png" alt="AWS Logo" width={50} height={50} />
-          <Image src="/icons/v_bar.png" alt="Vertical bar" width={50} height={50} />
+          <Image
+            src="/icons/v_bar.png"
+            alt="Vertical bar"
+            width={50}
+            height={50}
+          />
         </>
       )}
       <Image

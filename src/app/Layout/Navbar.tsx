@@ -10,7 +10,7 @@ export default function Navbar({}: Props) {
     <div className="w-full h-20 flex items-center justify-between gap-4">
       <ProjectLogo onlyProjectLogo />
       <Link
-        href="https://github.com/xanderbilla/custom-ml-app"
+        href="https://github.com/xanderbilla/next-amplify-gen2"
         target="_blank"
       >
         <Image src="/icons/github.svg" alt="Menu" width={36} height={36} />

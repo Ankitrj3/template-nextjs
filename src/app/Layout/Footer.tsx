@@ -1,4 +1,4 @@
-import ProjectLogo from "@/app/components/ProjectLogo";
+import ProjectLogo from "@/app/custom-components/ProjectLogo";
 import React from "react";
 
 type Props = {};

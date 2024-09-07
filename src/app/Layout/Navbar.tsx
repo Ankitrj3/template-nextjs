@@ -17,10 +17,6 @@ export default function Navbar({}: Props) {
       href: "/connect",
     },
     {
-      name: "Progress",
-      href: "/progress",
-    },
-    {
       name: "Forum",
       href: "/forum",
     },

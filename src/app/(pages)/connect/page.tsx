@@ -27,7 +27,7 @@ import { Textarea } from "@/components/ui/textarea";
 
 type Props = {};
 
-function page({}: Props) {
+export default function Page({}: Props) {
   const [date, setDate] = React.useState<Date>();
   return (
     <main className="min-h-[calc(100vh-14rem)] flex flex-col gap-8 mx-12">
@@ -199,5 +199,3 @@ function page({}: Props) {
     </main>
   );
 }
-
-export default page;

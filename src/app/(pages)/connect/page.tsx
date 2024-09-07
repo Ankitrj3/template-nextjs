@@ -32,7 +32,7 @@ export default function Page({}: Props) {
   return (
     <main className="min-h-[calc(100vh-14rem)] flex flex-col items-start justify-center my-8 gap-8">
       <h1 className="font-light text-5xl my-4">Let&#39;s connect!</h1>
-      <div className="flex w-auto gap-8 mx-4 items-center justify-center">
+      <div className="flex w-full gap-8 mx-4 items-center justify-center">
         <div className="flex flex-1">
           <div className="flex flex-col gap-8 w-full">
             <Tabs defaultValue="today" className="w-[600px] min-h-96">
@@ -130,7 +130,7 @@ export default function Page({}: Props) {
             </Tabs>
           </div>
         </div>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 w-72">
           <Dialog>
             <DialogTrigger asChild>
               <Button className="h-12">+ Schedule Meeting</Button>
@@ -192,7 +192,7 @@ export default function Page({}: Props) {
               </DialogFooter>
             </DialogContent>
           </Dialog>
-          <Calendar className="border rounded-md" />
+          <Calendar className="border rounded-md flex items-center justify-center w-full h-full" />
         </div>
       </div>
     </main>

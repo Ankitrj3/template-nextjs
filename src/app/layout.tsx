@@ -7,8 +7,8 @@ import Navbar from "@/app/Layout/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AWS Amplify Gen 2",
-  description: "Next Gen AWS Amplify",
+  title: "Home | SIH1630",
+  description: "Smart India Hackathon 2024",
 };
 
 export default function RootLayout({

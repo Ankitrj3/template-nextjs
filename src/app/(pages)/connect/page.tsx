@@ -30,13 +30,13 @@ type Props = {};
 export default function Page({}: Props) {
   const [date, setDate] = React.useState<Date>();
   return (
-    <main className="min-h-[calc(100vh-14rem)] flex flex-col gap-8 mx-12">
-      <h1 className="font-light text-5xl my-8">Let&#39;s connect!</h1>
-      <div className="flex gap-8 mx-4">
+    <main className="min-h-[calc(100vh-14rem)] flex flex-col items-start justify-center my-8 gap-8">
+      <h1 className="font-light text-5xl my-4">Let&#39;s connect!</h1>
+      <div className="flex w-auto gap-8 mx-4 items-center justify-center">
         <div className="flex flex-1">
           <div className="flex flex-col gap-8 w-full">
-            <Tabs defaultValue="today" className="w-[600px]">
-              <TabsList>
+            <Tabs defaultValue="today" className="w-[600px] min-h-96">
+              <TabsList className="h-12 my-2">
                 <TabsTrigger value="past">Past Meetings!</TabsTrigger>
                 <TabsTrigger value="today">Today Schedule</TabsTrigger>
                 <TabsTrigger value="upcoming">Upcoming Meetings!</TabsTrigger>
@@ -127,7 +127,6 @@ export default function Page({}: Props) {
                   </div>
                 </div>
               </TabsContent>
-
             </Tabs>
           </div>
         </div>

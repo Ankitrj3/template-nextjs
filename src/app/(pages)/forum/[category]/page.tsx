@@ -84,7 +84,7 @@ export default function Forum({}: Props) {
         </div>
         <div className="min-h-96 flex flex-col gap-4">
             {businessPosts.map((post, index) => (
-              <Link key={index} href="forum/business/8979dfsg">
+              <Link key={index} href="business/8979dfsg">
                 <Alert className="border flex items-center h-20 border-black/10 shadow-md gap-4">
                   <Avatar className="h-8 w-8">
                     <AvatarImage src="https://github.com/shadcn.png" />

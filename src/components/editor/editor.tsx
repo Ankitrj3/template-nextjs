@@ -74,7 +74,7 @@ export default function Editor({ initialValue, onChange }: EditorProps) {
           immediatelyRender={false}
           initialContent={initialValue}
           extensions={extensions}
-          className='min-h-96 rounded-xl border p-4'
+          className='min-h-72 rounded-xl border p-4'
           editorProps={{
             handleDOMEvents: {
               keydown: (_view, event) => handleCommandNavigation(event)
@@ -93,7 +93,7 @@ export default function Editor({ initialValue, onChange }: EditorProps) {
           }}
           slotAfter={<ImageResizer />}
         >
-          <EditorCommand className='z-50 h-auto max-h-[330px] overflow-y-auto rounded-md border border-muted bg-background px-1 py-2 shadow-md transition-all'>
+          <EditorCommand className='z-50 h-auto max-h-64 overflow-y-auto rounded-md border border-muted bg-background px-1 py-2 shadow-md transition-all'>
             <EditorCommandEmpty className='px-2 text-muted-foreground'>
               No results
             </EditorCommandEmpty>

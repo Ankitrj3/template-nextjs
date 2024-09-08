@@ -30,8 +30,8 @@ type Props = {};
 export default function Page({}: Props) {
   const [date, setDate] = React.useState<Date>();
   return (
-    <main className="min-h-[calc(100vh-14rem)] flex flex-col items-start justify-center my-8 gap-8">
-      <h1 className="font-light text-5xl my-4">Let&#39;s connect!</h1>
+    <main className="min-h-[calc(100vh-14rem)] flex flex-col items-start justify-start my-8 gap-8">
+      <h1 className="font-light text-5xl">Let&#39;s connect!</h1>
       <div className="flex w-full gap-8 mx-4 items-center justify-center">
         <div className="flex flex-1">
           <div className="flex flex-col gap-8 w-full">

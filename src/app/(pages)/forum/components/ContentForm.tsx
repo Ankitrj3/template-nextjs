@@ -42,8 +42,8 @@ export default function ContentForm({}: Props) {
   }, [title]);
 
   return (
-    <div className="mt-6 flex min-w-[600px] flex-col gap-4">
-      <div className="flex w-full flex-col gap-4">
+    <div className="mt-6 flex min-w-full flex-col items-center justify-center gap-4">
+      <div className="flex w-1/2 flex-col gap-4">
         <Input
           type="text"
           placeholder="Title"
@@ -56,8 +56,8 @@ export default function ContentForm({}: Props) {
           value={slug}
           onChange={(e) => SetSlug(e.target.value)}
         />
-        <Editor initialValue={defaultValue} onChange={setContent} />
-        <Button onClick={handleClick}>Create</Button>
+        <Editor initialValue={defaultValue} onChange={setContent}/>
+        <Button onClick={handleClick} className="text-lg h-12">Create</Button>
       </div>
     </div>
   );

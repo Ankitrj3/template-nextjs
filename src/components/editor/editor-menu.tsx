@@ -1,7 +1,8 @@
+"use client";
 import { EditorBubble, useEditor } from 'novel'
 import { removeAIHighlight } from 'novel/extensions'
 
-import { type ReactNode, useEffect } from 'react'
+import React, { ReactNode, useEffect } from 'react'
 
 interface EditorMenuProps {
   children: ReactNode

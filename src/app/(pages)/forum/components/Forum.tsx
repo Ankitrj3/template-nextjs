@@ -32,7 +32,7 @@ export default function Forum({}: Props) {
 
   return (
     <div className="min-h-96 w-full flex flex-col gap-8">
-      <div className="h-56 w-full bg-slate-600 text-center text-white gap-4 rounded-lg flex flex-col items-center justify-center">
+      <div className="h-56 w-full bg-black text-center  text-white hover:bg-[#c4ad88]/80 hover:text-black gap-4 rounded-lg flex flex-col items-center justify-center transition-all hover:duration-700 ease-in-out">
         <h1 className="text-3xl">Forum</h1>
         <p className="text-lg font-medium w-3/5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
@@ -40,7 +40,7 @@ export default function Forum({}: Props) {
           necessitatibus tempore atque quod
         </p>
         <Link href="/forum/post">
-          <Button variant="outline">Create Post</Button>
+          <Button variant="outline" className="hover:bg-black hover:text-white rounded-3xl">Create Post</Button>
         </Link>
       </div>
 
@@ -55,7 +55,8 @@ export default function Forum({}: Props) {
               <h1 className="text-xl font-medium ">Business</h1>
               <Link
                 href="/forum/business"
-                className="bg-gray-200/80 p-2 px-4 rounded-md"
+                className="bg-gray-200/80 p-2 px-4 rounded-3xl  hover:bg-black hover:text-white transition-colors"
+              
               >
                 View All
               </Link>
@@ -102,7 +103,7 @@ export default function Forum({}: Props) {
               <h1 className="text-xl font-medium ">Innovation</h1>
               <Link
                 href="/forum/business"
-                className="bg-gray-200/80 p-2 px-4 rounded-md"
+                className="bg-gray-200/80 p-2 px-4 rounded-3xl hover:bg-black hover:text-white transition-colors"
               >
                 View All
               </Link>
@@ -149,7 +150,7 @@ export default function Forum({}: Props) {
               <h1 className="text-xl font-medium ">Technical</h1>
               <Link
                 href="/forum/business"
-                className="bg-gray-200/80 p-2 px-4 rounded-md"
+                className="bg-gray-200/80 p-2 px-4 rounded-3xl  hover:bg-black hover:text-white transition-colors"
               >
                 View All
               </Link>

@@ -61,7 +61,13 @@
     @apply border-border;
   }
   body {
+    start{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
     @apply bg-background text-foreground;
+
   }
 }
 

@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`font-sans min-h-screen py-8 px-12 md:px-24 ${inter.className}`}
+        className={`font-sans min-h-screen  px-12 md:px-24 ${inter.className}`}
       >
         <Navbar />
         {children}
